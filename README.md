@@ -9,7 +9,7 @@
 5. 进入代码根目录执行`flyctl launch`
 6. 按照提示，输入你的应用名称
 7. 创建postgres数据库，记住`DATABAST_URL`
-8. 构建完成后，会询问是否部署（deploy），这里选否，因为我们要重新设置下postgre url
+8. 构建完成后，会询问是否部署（deploy），这里选否，因为我们要重新设置下postgres url
 9. 重新设置下DATABAST_URL
    ```
     flyctl secrets set DATABASE_URL=<第七步记下的url>?sslmode=disable
