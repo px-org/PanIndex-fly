@@ -5,6 +5,7 @@ processes = []
 
 [env]
   DB_TYPE = "postgres"
+  DATABASE_SSL = "false"
 [experimental]
   allowed_public_ports = []
   auto_rollback = true
