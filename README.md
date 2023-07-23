@@ -15,7 +15,7 @@
 
 ## 其他事项
 
-- 在本地仓库代码中手动指定[版本号](https://github.com/px-org/PanIndex/releases)，在`Dockerfile`配置文件中进行设置，使用`flyctl deploy`完成上传更新
+- 默认部署最新版本
 
 - 自己的域名可在应用管理面板中的`Certificates`进行绑定
 
